@@ -126,7 +126,7 @@ ul {
   letter-spacing: 3%;
   color: var(--details-color);
 }
-.main-what_we_do {
+.main-what-we-do {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
@@ -240,6 +240,7 @@ ul {
   color: var(--inactive-link2);
 }
 /* ---------------------- Tema 3 --------------------*/
+/* ---------------------- Header --------------------*/
 body {
   margin: 0;
 }
@@ -279,4 +280,49 @@ body {
   width: 288px;
   padding: 0px 215px 0px 0px;
   margin: 0px;
+}
+/* ---------------------- Main --------------------*/
+.main {
+  width: 1600 px;
+  height: 600 px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 200px 0px;
+}
+.main-title {
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+/* ---------------------- skill --------------------*/
+.main-section-skil {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 94px 0px 94px 0px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-skil {
+  margin: 0px;
+  padding: 0px;
+}
+.main-skil-details {
+  margin: 0px;
+  padding-top: 10px;
+}
+.main-what-we-do {
+  margin: 0;
+  padding-bottom: 50px;
+}
+.main-what-we-do-images {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  margin: 0 auto;
+  padding: 0px 0px 94px 0px;
+  width: 1200px;
 }
