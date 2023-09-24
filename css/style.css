@@ -187,7 +187,7 @@ ul {
 .main-title-images-description {
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.87;
+  line-height: 1.17;
   letter-spacing: 3%;
   color: var(--details-color);
 }
@@ -211,11 +211,12 @@ ul {
 .logo-studio-footer {
   color: var(--white);
 }
-.address {
+.address span {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.14;
   letter-spacing: 3%;
+  font-style: normal;
 }
 .footer-adress {
   color: var(--white);
@@ -224,6 +225,9 @@ ul {
 .address a[href^="mailto"],
 .address a[href^="tel"] {
   color: var(--footer-color-contact);
+  font-size: 14px;
+  line-height: 1.14;
+  font-style: normal;
 }
 .address a {
   text-decoration: none;
@@ -358,4 +362,48 @@ body {
   margin: 0px;
   padding: 0px 1154px 60px 215px;
   margin: 0 auto;
+}
+/* ---------------------- Portofolio --------------------*/
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 62px 0px 50px 0px;
+  margin: 0 auto;
+}
+.button-list li button {
+  padding: 6px 22px;
+  border-radius: 4px;
+}
+.images-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 0px 0px 94px 0px;
+  margin: 0 auto;
+  width: 1200px;
+}
+.images-list li {
+  border: 1px solid #eeeeee;
+  padding: 0px 0px 0px 0px;
+}
+.images-text {
+  padding: 20px 24px;
+}
+.images-text h3,
+.images-text p {
+  margin: 0;
+}
+
+.main-title-images {
+  padding: 0px 0px 4px 0px;
+}
+/* ---------------------- Obervatie--------------------*/
+.main-what-we-do-images li img,
+.main-our-team-description li img,
+.images-list li img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
